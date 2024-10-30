@@ -1,0 +1,27 @@
+Package: ipchem.dataretrieval
+Type: Package
+Title: Download data packages from IPCHEM site
+Version: 0.1.0
+Author: Gabriel Oprescu
+Maintainer: Gabriel Oprescu <gabriel.oprescu@ext.ec.europa.eu>
+Description: Explore the data packages available on IPCHEM site. 
+  Create urls, download the archives and tranform into data frame. Parse JSON strings inside the data frames.
+URL: https://code.europa.eu/ipchem-toolbox/dataretrieval/ipchem-dataretrieval-r
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+LazyDataCompression: gzip
+Imports: 
+    data.table (>= 1.14.10),
+    glue (>= 1.6.2),
+    httr2 (>= 1.0.0),
+    readr (>= 2.1.4),
+    rjson (>= 0.2.21),
+    rlang (>= 1.1.2),
+    stringr (>= 1.5.1)
+RoxygenNote: 7.3.1
+Depends: 
+    R (>= 2.10)
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
